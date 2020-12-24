@@ -1,10 +1,10 @@
+#define MAX_SIZE_BYTES 2 << 13
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#define MAX_SIZE_BYTES 2 << 13
-#define _POSIX_C_SOURCE 200809L
 
 /*
  * Abre, lee y escribe en stdout un archivo mediante su file descriptor
